@@ -23,6 +23,7 @@ import im.turms.server.common.BaseTurmsApplication;
 import im.turms.server.common.infra.lang.PackageConst;
 
 /**
+ * mlaunch init --replicaset --sharded 1 --nodes 1 --config 1 --hostname 0.0.0.0 --port 27017 --mongos
  * Responsibilities:
  * <p>
  * For users: 1. Authentication; 2. Session representation; 3. Push notifications; 4. Backpressure
