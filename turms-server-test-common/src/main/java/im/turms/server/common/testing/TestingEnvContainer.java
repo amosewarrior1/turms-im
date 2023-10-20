@@ -247,7 +247,7 @@ public class TestingEnvContainer extends DockerComposeContainer<TestingEnvContai
 
     public String getRedisUri() {
         return "redis://"
-                + getRedisHost()
+                + "localhost"
                 + ":"
                 + getRedisPort();
     }

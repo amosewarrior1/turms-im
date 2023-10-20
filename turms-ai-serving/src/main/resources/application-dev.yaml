@@ -11,11 +11,11 @@ turms:
         port-auto-increment: true
     shared-config:
       mongo:
-        uri: mongodb://localhost:27017/turms-config-dev
+        uri: mongodb://121.40.61.137:27017/turms-config-dev
   logging:
     console:
       enabled: true
   ai-serving:
     mongo:
       admin:
-        uri: mongodb://localhost:27017/turms-dev
+        uri: mongodb://121.40.61.137:27017/turms-dev
